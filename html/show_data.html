@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Feedback Sent</title>
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/nysl_3.css">
+  <link rel="shortcut icon" href="../logos/favicon.ico" type="image/vnd.microsoft.icon">
+
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="../logos/nysl_logo.png" alt="NYSL Logo"></a>
+    </div>
+    <div class="main-title">
+      <h1>Northside Youth Soccer League</h1>
+    </div>
+  </header>
+  <div class="icon"><i class="fas fa-check-circle fa-10x"></i></div>
+  <div class="submission">
+    <p>Thank you for your registration!</p>
+    <p>The following information has been sent as your feedback &#58;</p>
+    <table class="last-page">
+    <tr>
+      <th>Items</th>
+      <th>Your Information</th>
+    </tr>
+
+    <script>
+      var args = location.search.substr(1).split('&');
+      for (var i = 0; i < args.length; ++i) {
+        var parts = args[i].split('=');
+        if (parts != null) {
+          var field = parts[0];
+          var value = parts[1];
+          if (value == null) {
+            value = "null"
+          } else {
+            value = unescape(value.replace(/\+/g, ' ')) ;
+          }
+
+          document.writeln('<tr><td align="left">' + field + '</td>');
+          document.writeln('<td align="left">' + value + '</td></tr>');
+        }
+      }
+    </script>
+
+
+
+  </table>
+<div><a href="index.html">Back to Home</a></div>
+</div>
+<footer></footer>
+</body>
+
+</html>

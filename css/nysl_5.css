@@ -1,0 +1,445 @@
+body {
+  margin:0 auto;
+  position: relative;
+  font-family: 'calibri' , sans-serif;
+  background-color: #EEEEEE;
+  width: 100%;
+}
+header {
+  background-image: url('https://static1.squarespace.com/static/55a5b8bfe4b09b09008e5753/t/55f31103e4b0106c8c52cfd2/1441992964256/soccer_banner.jpg?format=1500w');
+  height: 400px;
+  background-size: cover;
+}
+h1 {
+  margin-top: 0;
+  color: white;
+  font-family: 'Fredoka One', cursive, sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  padding: 120px 0 0 200px;
+  color:#33CC66;
+  text-shadow: 3px 3px 0 #000;
+}
+h2 {
+  position: absolute;
+  top:500px;
+  left: 150px;
+  color:#33CC66;
+  font-size:35px;
+  text-shadow: 1px 1px 0 #005500;
+}
+h3{
+  font-size: 25px;
+  margin-bottom: 0;
+}
+h4 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+img {
+  height: 150px;
+  width:150px;
+  display: inline-block;
+}
+.logo {
+  position: absolute;
+  top: 70px;
+  left:25px;
+}
+/* navigation header */
+.nav {
+  height:50px;
+  background-color: black;
+  position: relative;
+}
+.nav li {
+  list-style:none;
+  float: left;
+  margin-right:80px;
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+a:hover {
+  opacity: 0.8;
+  color:#008000;
+}
+.nav ul {
+  margin:0;
+  padding:0;
+  position: absolute;
+  top:15px;
+  left:13%;
+}
+.current-page {
+  color: #33CC66;
+}
+.strong {
+  font-weight: bold;
+}
+/* about */
+.mission {
+  display:inline-block;
+  width:60%;
+  padding-left:20px;
+  float:right;
+  padding:50px 50px 0 0;
+  height:500px;
+}
+.mission p {
+  margin-top:0;
+  font-size: 18px;
+}
+.container {
+  display: inline-block;
+  float:right;
+  width:60%;
+  padding-top: 70px;
+  height:400px;
+
+  margin-right: 50px;
+  padding-left: 50px;
+}
+.container p {
+  font-size: 25px;
+}
+.container a {
+  color:blue;
+  text-decoration: underline;
+  font-size: 30px;
+}
+/* home page */
+section p {
+  margin-top: 0;
+}
+/* Rules and Policies */
+table {
+  width:700px;
+}
+.title {
+  margin-top: 150px;
+}
+.rule1,.rule2{
+  text-align: center;
+}
+.rule2 {
+  font-weight: normal;
+}
+.rule-container {
+  margin:50px 0;
+  padding-left:300px;
+}
+.rule-container ul {
+  display: inline-block;
+  margin:0 auto;
+}
+.rule-container li {
+  margin:0 auto;
+}
+.rule-container p {
+  font-size: 17px;
+}
+.abc {
+  list-style: lower-alpha;
+}
+.nodots {
+  list-style: none;
+}
+.bkdots {
+  list-style:square;
+}
+.wtdots {
+  list-style: circle;
+}
+/* game info */
+.info-container {
+  padding-bottom: 50px;
+}
+table {
+  margin:0 auto;
+  margin-bottom: 20px;
+}
+
+.dates th, .dates td {
+  height:20px;
+  width: 150px;
+  text-align: left;
+}
+.dates th {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+}
+.sep, .oct {
+
+}
+.locations {
+  width: 720px;
+}
+.locations th, .locations td {
+  width: 300px;
+}
+.locations th {
+  text-align: left;
+}
+h5 , h6 {
+  padding-left: 374px;
+  font-style: italic;
+}
+h5 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+h6 {
+  text-decoration: underline;
+  font-size: 17px;
+  margin: 20px 0;
+}
+.facility {
+  margin-bottom: 0;
+}
+.facility th {
+  width: 13%;
+  text-align: left;
+}
+.facility td {
+  width: 87%;
+}
+
+.person th {
+  width: 30%;
+  text-align: left;
+}
+.person td {
+  width:70%;
+  text-align: left;
+}
+.numbers th {
+  width: 7%;
+  text-align: left;
+}
+.numbers td{
+  width: 43%;
+}
+.numbers a {
+  color:blue;
+  text-decoration: underline;
+  font-size:16px;
+}
+.additional {
+  margin:0 auto;
+  width: 700px;
+  padding-left: 6px;
+  margin-top:20px;
+  margin-bottom:20px;
+
+}
+.sub {
+  font-size: 16px;
+}
+/* form */
+form {
+  margin:0 auto;
+  margin-top: 190px;
+  margin-bottom:50px;
+  padding-top: 50px;
+  width:70%;
+  font-size: 17px;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  background: #D3D3D3;
+  border-radius: 8px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom:20px;
+}
+.thick {
+  height:150px;
+  padding-bottom: 0;
+}
+.padding-bottom {
+  padding-bottom: 20px;
+}
+.firstName , .lastName {
+  width: 50%;
+}
+.lastName input {
+  width:59.5%;
+}
+.city , .zip {
+  width: 50%;
+}
+.bd  {
+  width: 50%;
+}
+.gender {
+  width:40%;
+}
+.gender input {
+  cursor: pointer;
+}
+.phone, .email {
+  width: 50%;
+}
+.email input {
+  width:59.5%;
+}
+.grade {
+  height: 30px;
+
+}
+.grade input {
+  font-size: 20px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.questions {
+  font-size: 17px;
+  font-weight: bold;
+
+}
+.margin0 {
+  margin-top: 0;
+}
+.text {
+  width:60%;
+  height: 25px;
+  border-radius: 8px;
+}
+.street {
+  width:77%;
+  height: 25px;
+  border-radius: 8px;
+}
+.parent {
+  height: 25px;
+  border-radius: 8px;
+  width:75.5%;
+}
+.box {
+  width:62%;
+}
+.checkbox input{
+  font-size: 25px;
+  cursor: pointer;
+}
+.checkbox .questions {
+  padding-bottom:10px;
+}
+.permissionToPlay {
+  padding-left: 0;
+  text-decoration: underline;
+  margin-top: 0;
+}
+.permission {
+  padding-bottom:20px;
+}
+
+.question1 {
+  font-size: 17px;
+  margin-top: 0;
+}
+.radio {
+  flex-direction: column;
+  width:50%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.radio input {
+  cursor: pointer;
+}
+.btn {
+  padding: 0 130px 0 0;
+  font-size: 18px;
+}
+.signature {
+  width:60%;
+  height: 25px;
+
+}
+.today {
+  width: 40%;
+  height: 25px;
+  border-radius: 8px;
+}
+.signature input {
+  height: 25px;
+  width:60%;
+  border-radius: 8px;
+}
+.today input {
+  width: 57%;
+  height: 25px;
+  border-radius: 8px;
+}
+.submit {
+  padding-right: 120px;
+}
+button {
+  width: 35%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 25px;
+  float: right;
+  background-color: gray;
+  color:white;
+  letter-spacing: 3px;
+  box-shadow: 0px 3px #555555;
+  cursor: pointer;
+}
+button:active {
+  box-shadow: none;
+  position: relative;
+  top:3px;
+}
+/* map */
+.map {
+  width:300px;
+  height:225px;
+}
+/* submission */
+.submission {
+  /* width:60%; */
+  padding-top: 200px;
+}
+.submission p {
+  /* padding-left: 150px; */
+  text-align: center;
+  font-size: 18px;
+}
+.submission h5  {
+  text-align: right;
+  padding-right: 100px;
+  text-decoration: underline;
+
+}
+.submission a {
+  color:#33CC66;
+  width:100px;
+
+}
+.last-page {
+   width: 500px;
+   background: #D3D3D3;
+   /* border-: ;radius: 8px; */
+   font-size: 20px;
+   line-height: 30px;
+}
+.last-page th {
+  background: gray;
+  width: 150px;
+  border:1px solid white;
+}
+.last-page td {
+  border:1px solid white;
+}

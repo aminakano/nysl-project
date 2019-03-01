@@ -1,0 +1,820 @@
+body {
+  margin: 0 auto;
+  font-family: 'calibri', sans-serif;
+  background-color: #EEEEEE;
+  width: 100%;
+  color: #333333;
+}
+
+/* header */
+header {
+  background-image: url('https://static1.squarespace.com/static/55a5b8bfe4b09b09008e5753/t/55f31103e4b0106c8c52cfd2/1441992964256/soccer_banner.jpg?format=1500w');
+  height: 330px;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.logo {
+  width: 180px;
+  padding-left: 50px;
+}
+/* main container */
+.main {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  position: relative;
+  align-items: center;
+}
+/* main */
+
+h1 {
+  margin: 0;
+  font-family: 'Fredoka One', cursive, sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: #33CC66;
+  text-shadow: 3px 3px 0 #000;
+}
+
+h2 {
+  color: #eee;
+  font-size: 30px;
+  text-shadow: 2px 2px 0 #005500;
+  height: 40px;
+  /* padding:50px 0 0 150px; */
+  letter-spacing: 1px;
+  /* margin:10px 0; */
+}
+
+.h2label {
+  background-color: #33CC66;
+  width: 400px;
+  border-radius: 30px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.thanks {
+  align-self: flex-end;
+  background-color: #33CC66;
+  width: 500px;
+  border-radius: 30px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas {
+  color: #33CC66;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+/* navigation header */
+.nav {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav ul {
+  height: 20px;
+}
+
+.nav li {
+  list-style: none;
+  float: left;
+  margin-right: 80px;
+  text-align: center;
+}
+
+a {
+  color: #EEEEEE;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.nav a:hover {
+  opacity: 0.8;
+  color: #008000;
+  transition:0.8s;
+}
+
+.current-page {
+  color: #33CC66;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+
+
+/* about */
+.mission {
+  /* padding-left: 350px;
+  float: right; */
+  height: 500px;
+  width: 800px;
+}
+
+.mission p {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.container {
+  height: 400px;
+  margin-right: 50px;
+  padding-left: 100px;
+}
+
+.container p:first-child {
+  margin-top: 0;
+}
+
+/* contact */
+.contact p {
+  font-size: 21px;
+  color: #EEEEEE;
+}
+
+.contact a {
+  font-size: 23px;
+}
+
+.contact {
+  padding: 30px;
+  margin-bottom: 120px;
+  background: linear-gradient(-135deg, #11998e, #38ef7d);
+  border-radius: 25px;
+  width: 400px;
+  height: 180px;
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.send-button {
+  width: 100%;
+  background-color: rgba(86,171,47,0.8);
+  color: #ddd;
+  border: none;
+  box-shadow: 3px #005500;
+  outline: 0;
+  display: flex;
+  height:55px;
+  border-radius: 10px;
+  box-shadow: 0px 3px #669966;
+}
+.send-button:hover {
+  background-color: rgb(81,161,44);
+  transition: 0.8s;
+}
+.send-button:active {
+  box-shadow: none;
+  position: relative;
+  top: 3px;
+}
+
+.send-button a {
+  text-decoration: none;
+  font-style: normal;
+  width: 100%;
+  cursor: pointer;
+  align-self: center;
+}
+
+.mail {
+  opacity: 0.8;
+  z-index: -1;
+  background-image: url('https://www.inma.org/files/images/blogs/feature_photos/Stines-EmailChannel-1800.jpg');
+  transform: scale(-1, 1);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* home page */
+section p {
+  margin-top: 0;
+}
+
+.background {
+  opacity: 0.7;
+  z-index: -1;
+  background-image: url('https://upward.blob.core.windows.net/media/Default/images/full/soccer/Soccer-Slide-Clinics.jpg');
+  background-size: cover;
+  transform: scale(-1, 1);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.events {
+  width: 600px;
+  padding: 0 20px;
+  margin-bottom: 100px;
+  height: 350px;
+  background: rgba(211, 211, 211, 0.7);
+  border-radius: 20px;
+  box-shadow: 3px 3px #555555;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.events section p {
+  font-size: 18px;
+  border-bottom: 1px solid #888;
+}
+
+.events section h4 {
+  font-size: 25px;
+  margin-bottom: 0;
+  opacity: 0.8;
+  width: 140px;
+}
+
+.events section h4:hover {
+  opacity: 1;
+  position: relative;
+  bottom: 3px;
+  transition: 1s;
+}
+
+/* Rules and Policies */
+table {
+  width: 700px;
+}
+
+.rule1 {
+  text-align: center;
+}
+.rule2 {
+  font-weight: normal;
+}
+
+.rule-container {
+  margin: 50px 0;
+  padding:50px 90px;
+  background: #D3D3D3;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.rule-container ul {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.rule-container li {
+  margin: 0 auto;
+}
+
+.rule-container p {
+  font-size: 17px;
+}
+
+.abc {
+  list-style: lower-alpha;
+}
+
+.nodots {
+  list-style: none;
+}
+
+.bkdots {
+  list-style: square;
+}
+
+.wtdots {
+  list-style: circle;
+}
+
+/* game info */
+.info-container {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+table {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.dates th, .dates td {
+  height: 20px;
+  width: 150px;
+  text-align: left;
+}
+
+.dates th {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.locations {
+  width: 100%;
+  background-color: #D3D3D3;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+  align-self: stretch;
+}
+
+.locations th, .locations td {
+  width: 300px;
+}
+
+.locations th {
+  text-align: left;
+  font-size: 20px;
+  font-style: italic;
+}
+
+h5, h6 {
+  padding-left: 374px;
+  font-style: italic;
+}
+
+h5 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+h6 {
+  text-decoration: underline;
+  font-size: 17px;
+  margin: 20px 0;
+}
+
+.facility {
+  margin-bottom: 0;
+}
+
+.facility th {
+  width: 13%;
+  text-align: left;
+}
+
+.facility td {
+  width: 87%;
+}
+
+.person th {
+  width: 30%;
+  text-align: left;
+}
+
+.person td {
+  width: 70%;
+  text-align: left;
+}
+
+.numbers th {
+  width: 7%;
+  text-align: left;
+}
+
+.numbers td {
+  width: 43%;
+}
+
+.numbers a {
+  color: blue;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.additional {
+  margin: 0 auto;
+  width: 700px;
+  padding-left: 6px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sub {
+  font-size: 16px;
+}
+
+/* form */
+form {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding:50px 0 100px 100px;
+  width: 70%;
+  font-size: 17px;
+  flex-wrap: wrap;
+  background: #D3D3D3;
+  border-radius: 8px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.thick {
+  height: 150px;
+  padding-bottom: 0;
+}
+
+.padding-bottom {
+  padding-bottom: 20px;
+}
+
+.firstName, .lastName {
+  width: 50%;
+}
+
+.lastName input {
+  width: 59.5%;
+}
+
+.city, .zip {
+  width: 50%;
+}
+
+.bd {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.bd label {
+  flex-basis: 100px;
+}
+.bd input {
+  width: 70%;
+}
+.radio-b , .check-b {
+  display: none;
+}
+.radio-parts ,.checkparts {
+  padding-left: 20px;
+  position: relative;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.radio-parts::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  background:#eee;
+}
+
+.radio-b + label {
+  color: #00CC00;
+}
+
+.radio-b:checked + .radio-parts {
+  /* color: #00CC00; */
+}
+
+.radio-b:checked + .radio-parts::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 14px;
+  height: 14px;
+  background: #00CC00;
+  border-radius: 50%;
+}
+
+.checkparts::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #999;
+  border-radius: 30%;
+  background:#eee;
+}
+.check-b:checked + .checkparts::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -3px;
+  left: 5px;
+  width: 7px;
+  height: 14px;
+  transform: rotate(40deg);
+  border-bottom: 3px solid #00CC00;
+  border-right: 3px solid #00CC00;
+}
+
+.gender {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.gender input {
+  cursor: pointer;
+}
+.gender span {
+  flex-basis: 70px;
+}
+
+.phone, .email {
+  width: 50%;
+}
+
+.email input {
+  width: 59.5%;
+}
+
+.grade {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.grade span {
+  flex-basis: 70px;
+}
+.grade input {
+  font-size: 20px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.questions {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.margin0 {
+  margin-top: 0;
+}
+
+.text {
+  width: 60%;
+  height: 25px;
+  border-radius: 8px;
+}
+
+.street {
+  width: 77%;
+  height: 25px;
+  border-radius: 8px;
+}
+
+.parent {
+  height: 25px;
+  border-radius: 8px;
+  width: 75.5%;
+}
+
+.box {
+  width: 62%;
+}
+
+.checkbox input {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.checkbox .questions {
+  padding-bottom: 10px;
+}
+
+.permissionToPlay {
+  padding-left: 0;
+  text-decoration: underline;
+  margin-top: 0;
+}
+
+.permission {
+  padding-bottom: 20px;
+}
+
+.question1 {
+  font-size: 17px;
+  margin-top: 0;
+}
+
+.radio {
+  flex-direction: column;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.radio input {
+  cursor: pointer;
+}
+
+.btn {
+  padding: 0 130px 0 0;
+  font-size: 18px;
+}
+
+.signature {
+  width: 60%;
+  height: 25px;
+}
+
+.today {
+  width: 40%;
+  height: 25px;
+  border-radius: 8px;
+}
+
+.signature input {
+  height: 25px;
+  width: 60%;
+  border-radius: 8px;
+}
+
+.today input {
+  width: 57%;
+  height: 25px;
+  border-radius: 8px;
+}
+
+.submit {
+  padding-right: 120px;
+}
+
+button {
+  width: 35%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 25px;
+  float: right;
+  background-color: gray;
+  color: white;
+  letter-spacing: 3px;
+  box-shadow: 0px 3px #555555;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+}
+
+button:active {
+  box-shadow: none;
+  position: relative;
+  top: 3px;
+}
+
+/* map */
+.map {
+  width: 300px;
+  height: 225px;
+}
+
+/* submission */
+.submission {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.submission p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.submission p:first-child {
+  margin-bottom: 0;
+}
+
+.submission h5 {
+  text-align: right;
+  padding-right: 100px;
+  text-decoration: underline;
+}
+
+.submission div {
+  width: 200px;
+  height: 55px;
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.submission a {
+  background-color: #33CC66;
+  color: white;
+  width: 200px;
+  display: inline-block;
+  height: 32px;
+  padding-top: 6px;
+  border-radius: 5px;
+  box-shadow: 0px 3px #669966;
+}
+
+.submission a:active {
+  box-shadow: none;
+  position: relative;
+  top: 3px;
+}
+
+.last-page {
+  width: 500px;
+  background: #D3D3D3;
+  font-size: 20px;
+  line-height: 35px;
+  padding: 60px;
+  border-radius: 8px;
+  color: #555555;
+}
+
+.last-page th {
+  width: 100px;
+  text-align: center;
+}
+
+.last-page td {
+  border-bottom: 2px dotted white;
+  padding: 0;
+  width: 100px;
+}
+
+footer {
+  height: 200px;
+  background: #56ab2f;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a8e063, #56ab2f);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+summary {
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/arrow-right.svg);
+  outline: none;
+}
+summary::-webkit-details-marker {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/arrow-right.svg) no-repeat center/6px;
+  color: transparent;
+}
+details {
+  margin:10px;
+}
